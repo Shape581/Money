@@ -1,0 +1,20 @@
+name: Money
+version: '${version}'
+
+main: org.fr.money.Money
+api-version: '26.2'
+load: POSTWORLD
+
+permissions:
+  money.balance:
+    description: See balance
+    default: true
+  money.send:
+    description: Send a money to player
+    default: true
+  money.give:
+    description: Give a money to player
+    default: op
+  money.set:
+    description: Set a money of player
+    default: op

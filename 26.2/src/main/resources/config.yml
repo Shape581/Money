@@ -1,0 +1,20 @@
+# 0 = 50000
+# 1 = 50 000
+# 2 = 50K
+
+money-format-mode: 0
+
+texts:
+  money.symbol: "$"
+  bank: "Bank"
+  balance: "<gold>Bank</gold> <gray>-></gray> You have <gold>%MONEY%</gold>."
+  player.not.found: "<gold>Bank</gold> <gray>-></gray> <red>Player %PLAYER% not found.</red>"
+  cannot.send.to.self: "<gold>Bank</gold> <gray>-></gray> <red>You cannot send money to yourself.</red>"
+  not.enough.money: "<gold>Bank</gold> <gray>-></gray> <red>You do not have enough money.</red>"
+  player.not.found.offline: "<gold>Bank</gold> <gray>-></gray> <red>Player not found or offline.</red>"
+  send.success.sender: "<gold>Bank</gold> <gray>-></gray> You sent <gold>%MONEY%</gold> to <gold>%PLAYER%</gold>!"
+  send.success.receiver: "<gold>Bank</gold> <gray>-></gray> You received <gold>%MONEY%</gold> from <gold>%PLAYER%</gold>!"
+  give.success.sender: "<gold>Bank</gold> <gray>-></gray> You gave <gold>%MONEY%</gold> to <gold>%PLAYER%</gold>!"
+  give.success.receiver: "<gold>Bank</gold> <gray>-></gray> You received <gold>%MONEY%</gold>!"
+  set.success.sender: "<gold>Bank</gold> <gray>-></gray> You set <gold>%PLAYER%</gold>'s money to <gold>%MONEY%</gold>!"
+  set.success.receiver: "<gold>Bank</gold> <gray>-></gray> Your money is now <gold>%MONEY%</gold>!"
